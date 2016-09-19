@@ -1,0 +1,280 @@
+<html>
+	<head>
+		<title></title>
+		<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<link href="css/theme.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="http://jscart.googlecode.com/svn/jscart.js"></script> 
+		<!--  jquery plguin -->
+	    <script type="text/javascript" src="js/jquery.min.js"></script>
+	    <!-- start details -->
+<!----details-product-slider--->
+				<!-- Include the Etalage files -->
+					<link rel="stylesheet" href="css/etalage.css">
+					<script src="js/jquery.etalage.min.js"></script>
+				<!-- Include the Etalage files -->
+				<script>
+					jQuery(document).ready(function($){
+			
+						$('#etalage').etalage({
+							thumb_image_width: 280,
+							thumb_image_height: 400,
+							show_hint: true,
+						});
+						
+					});
+						
+				</script>
+				<!----//details-product-slider--->	
+
+
+
+	</head>
+	<body style="background-color:white !important;">
+		<!----start-container----->
+		<div class="header-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="logo"><a href="index.html"><img src="images/logo.png" alt=""/></a></div>
+					</div>
+					<div class="col-md-8">					
+	 					<nav class="navbar navbar-default" role="navigation">
+						  <div class="container-fluid">
+						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						      <ul class="nav navbar-nav">
+								
+							    <li>
+									<div class="btn-group show-on-hover">
+										<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							            Categories<span class="caret"></span>
+										</button>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="#">Men</a></li>
+											<li><a href="#">Women</a></li>
+										</ul>
+									</div>	
+								</li>
+								<li><a href="returns.html">Returns</a></li>	
+						      </ul>							      					    					      
+						    </div>
+						  </div>
+						</nav>
+						<div class="right">
+							<ul class="list-unstyled">
+								<li class="a text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a> <span id="total">$0</span></li>
+								<li><a href="checkout.html">Checkout</a></li>								
+							</ul>
+						</div>	
+					</div>
+				</div>
+			</div>
+        </div>
+		
+    <div class="single">
+         <div class="container">
+     	    
+		<div class="col-md-offset-1  cont span_2_of_3">
+			 <div class="col-md-2 labout span_1_of_a1">
+				<!-- start product_slider -->
+				     <ul id="etalage">
+							<li>
+								<img class="etalage_thumb_image" src="images/show1.jpg" />
+								<img class="etalage_source_image" src="images/show1.jpg" />
+							</li>
+							<li>
+								<img class="etalage_thumb_image" src="images/show3.jpg" />
+								<img class="etalage_source_image" src="images/show3.jpg" />
+							</li>
+						</ul>
+					
+					
+			<!-- end product_slider -->
+			</div>
+			<div class="col-md-4 col-md-offset-2 cont1 span_2_of_a1">
+				<h3 class="m_3">TAG Heuer Grand Carrera</h3>
+				
+				<br/>
+				<div>
+					<p style="color:gray; display:inline">Select Quantity&nbsp;&nbsp;&nbsp;	</p>
+					<select id="quantity" onChange="go(value)">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+					</select>
+				</div>
+				<br/>
+				
+				<div style="color:orange ; font-size:150%">
+					<span id="baseprice" >$350.00</span>
+				</div><br/>
+						
+				
+				<div class="btn" onclick="addToCart()"> Add To Cart</div>
+				<br/><br/>
+				<ul>
+					<li>Imported</li>
+					<li>Stainless steel watch with sunray dial and black center link on bracelet</li>
+					<li>Swiss quartz movement with analog display</li>
+					<li>Protective anti-reflective sapphire crystal dial window</li>
+					<li>Features tachymeter, date window, textured chronograph subdials, and fold-over clasp with safety</li>
+					<li>Water resistant to 660 feet (200 M): suitable for recreational scuba diving</li>
+				</ul>	
+    			
+			</div>
+			<div class="clearfix"></div>
+         </div>
+     
+		 <div class=" col-md-12 nbs-flexisel-container">
+			<div class="nbs-flexisel-inner">
+				<ul id="run" class="nbs-flexisel-ul" style="left: -195.2px; display: block;">	
+					<li class="nbs-flexisel-item" style="width: 195.2px;"><img src="images/cont1.jpg"><div class="grid-flex"><a href="#">Grand Carrera</a><p>$350</p></div></li>
+					<li class="nbs-flexisel-item" style="width: 195.2px;"><img src="images/cont2.jpg"><div class="grid-flex"><a href="#">Carrera</a><p>$350</p></div></li>
+					<li class="nbs-flexisel-item" style="width: 195.2px;"><img src="images/cont3.jpg"><div class="grid-flex"><a href="#">Aquaracer</a><p>$350</p></div></li>
+					<li class="nbs-flexisel-item" style="width: 195.2px;"><img src="images/cont4.jpg"><div class="grid-flex"><a href="#">Formula1</a><p>$350</p></div></li>
+					<li class="nbs-flexisel-item" style="width: 195.2px;"><img src="images/cont5.jpg"><div class="grid-flex"><a href="#">Monaco</a><p>$350</p></div></li>
+					<li class="nbs-flexisel-item" style="width: 195.2px;"><img src="images/cont1.jpg"><div class="grid-flex"><a href="#">Grand Carrera</a><p>$350</p></div></li>
+					<li class="nbs-flexisel-item" style="width: 195.2px;"><img src="images/cont2.jpg"><div class="grid-flex"><a href="#">Carrera</a><p>$350</p></div></li>
+					<li class="nbs-flexisel-item" style="width: 195.2px;"><img src="images/cont3.jpg"><div class="grid-flex"><a href="#">Aquaracer</a><p>$350</p></div></li>
+					<li class="nbs-flexisel-item" style="width: 195.2px;"><img src="images/cont4.jpg"><div class="grid-flex"><a href="#">Formula1</a><p>$350</p></div></li>
+					<li class="nbs-flexisel-item" style="width: 195.2px;"><img src="images/cont5.jpg"><div class="grid-flex"><a href="#">Monaco</a><p>$350</p></div></li>
+				</ul>
+			</div>
+		</div>
+	    <script type="text/javascript">
+		 $(window).load(function() {
+			
+		
+			$("#run").flexisel({
+				visibleItems: 5,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 2000,    		
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+		    	responsiveBreakpoints: { 
+		    		portrait: { 
+		    			changePoint:480,
+		    			visibleItems: 1
+		    		}, 
+		    		landscape: { 
+		    			changePoint:640,
+		    			visibleItems: 2
+		    		},
+		    		tablet: { 
+		    			changePoint:768,
+		    			visibleItems: 3
+		    		}
+		    	}
+		    });
+		    
+		});
+	</script>
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	 <div class="toogle">
+     	<h3 class="m_3">Product Details</h3>
+     	<p class="m_text">The TAG Heuer Men's CAU1115.BA0869 Formula 1 Stainless Steel Ceramic Chronograph Watch is a sleek and sophisticated timepiece made for a man with discriminating taste. Featuring a grey analog chronograph dial, date display, black bezel with tachymeter scale and a silver stainless steel band with black ceramic center links, this watch is an elegant addition to your wardrobe and watch collection.</p>
+
+		<p class="m_text">Stainless steel case with a stainless steel bracelet with black ceramic center links. Fixed black ceramic bezel with tachymeter. Anthracite sunray dial with silver-tone hands and index hour markers. Minute markers around the outer rim. Dial Type: Analog. Luminescent hands and markers. Date display at the 4 o'clock position. Chronograph - three sub-dials displaying: 60 second, 30 minute and 1/10th of a second. Quartz movement. Scratch resistant sapphire crystal. Screw down crown. Solid case back. Case diameter: 42 mm. Case thickness: 12 mm. Round case shape. Band width: 20 mm. Deployment clasp with push button release. Water resistant at 200 meters / 660 feet. Functions: chronograph, date, hour, minute, second. Casual watch style. Watch label: Swiss Made. Tag Heuer Formula 1 Anthracite Sunray Dial Mens Watch CAU1115.BA0869.</p>
+		
+		<ul style="color:gray; font-weight:bold"}>
+			<li>ASIN: B007W1104A</li>
+			<li>Product Dimensions: 5.9 x 5.9 x 5.9 inches; 1.1 pounds</li>
+			<li>Shipping Weight: 2.2 pounds (View shipping rates and policies)</li>
+			<li>Shipping: This item is also available for shipping to select countries outside the U.S.</li>
+			<li>Origin: Switzerland</li>
+			<li>Item model number: CAU1115.BA0869</li>
+		</ul>
+     </div>					
+	 
+     </div>
+     <div class="clearfix"></div>
+	 </div>
+
+
+<?php
+
+// Error reporting:
+error_reporting(E_ALL^E_NOTICE);
+
+include "connect.php";
+include "comment.class.php";
+
+
+/*
+/	Select all the comments and populate the $comments array with objects
+*/
+
+$comments = array();
+$result = mysql_query("SELECT * FROM comments ORDER BY id ASC");
+
+while($row = mysql_fetch_assoc($result))
+{
+	$comments[] = new Comment($row);
+}
+
+?>
+
+<div id="main">
+
+<div id="addCommentContainer">
+	<p style="font-size:150% !important; font-weight:bold !important">Review The Product</p>
+	<form id="addCommentForm" method="post" action="">
+    	<div>
+        	<label for="name">Your Name</label>
+        	<input type="text" name="name" id="name" />
+            
+            <label for="email">Your Email</label>
+            <input type="text" name="email" id="email" />
+            
+            <label for="body">Comment Body</label>
+            <textarea name="body" id="body" cols="20" rows="5"></textarea>
+            
+            <input type="submit" id="submit" value="Submit" />
+        </div>
+    </form>
+</div>
+
+</div>
+
+<!--script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script-->
+<script type="text/javascript" src="script.js"></script>
+
+
+
+	 
+	
+<div class="footer">
+	<div class="container">
+		 <div class="row">
+		 	<div class="text-center">
+		 		<ul class="list-inline">
+		 			<li><a href="http://www.tagheuer.com/int-en/company/ceo-speech">Company</a></li>
+		 			<li><a href="http://www.tagheuer.com/int-en/site-map">Sitemap</a></li>
+		 			<li><a href="#">Privacy Policy</a></li>
+		 			<li><a href="http://blog.tagheuer.com/">Blog</a></li>
+		 		</ul>
+		 		
+		 	</div>	
+		 </div>	
+		 <div class="copy-right text-center">
+			<p>&#169Copyright 2014 All Rights Reserved</p>	
+		</div>
+	</div>
+</div>
+		
+
+</body>
+</html>
+
